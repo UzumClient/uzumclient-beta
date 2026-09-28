@@ -1,5 +1,5 @@
 // GET /api/payments/getMethods? (token cookie) — payment methods
-const { sb } = require("../../_sb");
+const { sb } = require("../../lib/sb");
 
 const METHODS = [
   { displayName: "Click", enumName: "CLICK" },

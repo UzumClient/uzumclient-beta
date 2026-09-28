@@ -1,6 +1,6 @@
 // POST /api/users/auth/register?hCaptcha=&username=&password=&email=
-const { sb } = require("../../_sb");
-const { userJson } = require("../../_user");
+const { sb } = require("../../../lib/sb");
+const { userJson } = require("../../../lib/user");
 
 async function getProfile(id) {
   for (let i = 0; i < 10; i++) {

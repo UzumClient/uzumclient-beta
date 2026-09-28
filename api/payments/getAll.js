@@ -1,5 +1,5 @@
 // GET /api/payments/getAll — tariff list (public)
-const { TARIFFS } = require("../../_shop");
+const { TARIFFS } = require("../../lib/shop");
 
 module.exports = async (req, res) => {
   return res.status(200).json(

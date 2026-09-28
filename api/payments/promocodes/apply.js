@@ -1,5 +1,5 @@
 // POST /api/payments/promocodes/apply?token=&code=
-const { sb } = require("../../_sb");
+const { sb } = require("../../../lib/sb");
 
 module.exports = async (req, res) => {
   try {

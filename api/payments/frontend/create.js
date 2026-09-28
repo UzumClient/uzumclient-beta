@@ -1,7 +1,7 @@
 // POST /api/payments/frontend/create?token=&id=&paymentType=[&promoCode=][&inputBoxEmail=]
 // Records the order in Supabase payments, returns Telegram URL (manual payment).
-const { sb } = require("../../_sb");
-const { tariffByType } = require("../../_shop");
+const { sb } = require("../../../lib/sb");
+const { tariffByType } = require("../../../lib/shop");
 
 async function sessionUser(token) {
   const rows = await sb(

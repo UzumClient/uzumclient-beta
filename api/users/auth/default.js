@@ -1,6 +1,6 @@
 // POST /api/users/auth/default?hCaptcha=&username=&password=  (login)
-const { sb } = require("../../_sb");
-const { userJson } = require("../../_user");
+const { sb } = require("../../../lib/sb");
+const { userJson } = require("../../../lib/user");
 
 module.exports = async (req, res) => {
   try {

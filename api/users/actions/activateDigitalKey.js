@@ -1,5 +1,5 @@
 // POST /api/users/actions/activateDigitalKey?token=&key=
-const { sb } = require("../../_sb");
+const { sb } = require("../../../lib/sb");
 
 module.exports = async (req, res) => {
   try {
