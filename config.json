@@ -1,0 +1,20 @@
+{
+	"shortClientName": "Uzum",
+	"clientName": "UZUM CLIENT",
+	"version": "1.21.4",
+	"supportEmail": "allambergenovaumida3103@gmail.com",
+	"url": "uzumclient.uz",
+	"ajaxUrl": "https://uzumclient-beta.vercel.app/api/",
+	"funpayLink": "https://t.me/UZUMCLIENTSUPPORT",
+	"turnStileSiteKey": "",
+	"clientColor": "#a855f7",
+	"socials": {
+		"discord": "https://t.me/UZUMCLIENTSUPPORT",
+		"telegram": "https://t.me/UZUMCLIENT"
+	},
+	"media": {
+		"first": "https://www.youtube.com/embed/Dd2xQ-wXOmk",
+		"two": "https://www.youtube.com/embed/Dd2xQ-wXOmk",
+		"three": "https://www.youtube.com/embed/Dd2xQ-wXOmk"
+	}
+}
